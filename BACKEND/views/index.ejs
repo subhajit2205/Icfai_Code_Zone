@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IcfaiCodeZone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ICZ-body">  <!-- ICZ-body -->
+
+    <header><!-- header -->
+
+        <div class="ICZ-nav-bar">
+            <div class="icz-h1">
+                <h1>IcfaiCodeZone</h1>
+            </div>
+
+
+            <div class="home">
+                <a href="#">Home</a>
+            </div>
+
+
+            <div class="home">
+                <a href="#">Event</a>
+            </div>
+
+
+            <div class="home">
+                <a href="#">Syllabus</a>
+            </div>
+
+
+            <div class="home">
+                <a href="#">Resources</a>
+            </div>
+
+            <div class="ICZ-login-setup">
+                <button id="#" class="nav-buttons">Sign-up</button>
+               <a href="/login"><button id="#id" class="nav-buttons">Login</button></a>
+            </div><!---end of icz login setup-->
+
+
+
+        </div><!---end of icz navbar-->
+    </header>
+
+
+<main> <!-- main-section -->
+
+
+    <div  id ="ICZ-left-part">  <!-- ICZ-left-part -->
+            
+        <div id="ICZ-search-container">  <!-- ICZ-search-container -->
+
+            <div class="ICZ-search-box">  <!-- ICZ-search-box -->
+
+                 <h2 class ="ICZ-text-h3">Search for Help, Stay to Contribute</h2>
+                 <p class ="ICZ-para">Search for Hackathons, doubts, or resources...</p>
+
+                 <div class="input-button-sec-main">
+                    <input type="text" placeholder="Search for events" class="input">
+                 <button id="#" class="button-main ">search</button>
+                 </div><!----end of input button section of main-->
+                 
+            </div>  <!-- ICZ-search-box-closed -->
+
+        </div> <!-- ICZ-search-container-closed -->
+
+            
+        <div class="ICZ-slider">  <!-- ICZ-slider-for showcasing events -->    
+           
+            <div class="slides" id="slidesContainer"><!-- --></div>
+
+        </div> <!-- ICZ-slider-closed -->
+
+
+         <!----------------->
+        <div class="upcoming-events"><h3>Upcoming events</h3> </div><!----end of upcoming events-->
+
+        <div class="upcoming-options">
+            <div class="hackathon">
+                <p class="hack">Hackathon</p>
+                <p>March 15, 2026</p>
+            </div>
+
+            <div class="hackathon">
+                <p class="hack">Technovate</p>
+                <p>April 16, 2026</p>
+            </div>
+
+            <div class="hackathon">
+                <p class="hack">Summer Projects</p>
+                <p>May 5, 2026</p>
+            </div>
+        </div><!--end of upcoming options-->
+        <!-------------------->
+
+        <div class="ICZ-highlight-container">  <!-- ICZ-highlight-container -->
+
+           <div class="high-light">
+            <h3 class ="ICZ-text-h1">Highlights</h3>
+           </div>
+
+
+            <div class="highlight-options">
+                <div class="doubt-sec highlight h-p"><a href="#"><i class="fa-solid fa-question"></i>Doubts Section</a></div>
+            <div class="resources-sec highlight h-p"><a href="#"><i class="fa-solid fa-book"></i>Resources Section</a></div>
+            <div class="syllabus highlight h-p"><a href="#"><i class="fa-solid fa-copy"></i>Syllabus</a></div>
+            </div>
+            
+        </div>  
+        </div><!---left part closed-->
+
+    
+
+
+    <div id="ICZ-right-part"> <!-- ICZ-right-part -->
+
+         <div class="post-sec">  <!-- ICZ-post-sec -->
+
+            <div class="profile">
+                <div> 
+                    <h3>User : <%= user.name %></h3>
+                </div>
+            </div>
+
+
+            <div class="profile-posts"> </div>
+
+
+            <div class="saved-posts"></div>
+            <button>Logout</button>
+
+         </div>  <!-- ICZ-post-sec-closed -->  
+           
+    </div>  <!-- ICZ-right-part-closed -->
+
+
+</main> <!-- main-section-closed -->
+ 
+
+<footer>  <!-- footer -->
+    <div class="footer-sec">
+
+    <div class="footer-box">
+        
+        <div class="cont footer-options">contact</div>
+        <div class="About footer-options">About</div>
+        <div class="pripoly footer-options">Privacy policy</div>
+      </div>  
+
+        <div class="social">
+            <div class="h-of-social"><h3>Social links</h3></div>
+            <div class="options">
+            <div class="social-options"> <a href = "#"><i class="fa-brands fa-linkedin"></i>Linked-In</a></div>
+             <div class="social-options"> <a href = "#"><i class="fa-brands fa-facebook"></i>Facebook</a></div>
+              <div class="social-options"> <a href = "#"><i class="fa-brands fa-github"></i>Git-hub</a></div>
+            </div>
+        </div>
+
+        </div><!----end of footer sec-->
+
+
+    <div class="line"></div>
+    <div class="copy-right">&copy; 2025, IcfaiCodeZone.com</div>
+
+</footer>  <!-- footer-closed -->
+
+
+
+
+
+    </div>  <!-- ICZ-body-closed -->
+</body>
+</html> 

@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(193, 210, 225);
+}
+
+.ICZ-nav-bar{
+    display: flex;
+    align-items: center;
+    gap:7rem;
+    padding-top: 1rem;
+    background-color: rgb(186, 207, 226);
+    height: 70px;
+    /* background-color:aliceblue; */
+}
+.ICZ-login-setup{
+    display: flex;
+    gap:2rem;
+}
+
+.home{
+    font-weight: 900;
+    font-size: 1.3rem;
+    
+}
+
+.home a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-buttons{
+    background-color: rgb(77, 77, 203);
+    color: white;
+    padding: 0.5rem;
+    width: 7rem;
+    border: none;
+    border-radius: 10px;
+   
+}
+
+.icz-h1 h1{
+    margin-left: 2rem;
+}
+
+main{
+    /* background-color: aliceblue; */
+    height: 100vh;
+    width: 100vw;
+}
+
+/*----search box part----*/
+.ICZ-search-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.ICZ-text-h3{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.ICZ-para{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.input{
+    padding: 0.7rem;
+    width: 30%;
+    background-color:rgb(186, 207, 226);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.button-main{
+    padding: 0.7rem;
+    font-size: 1rem;
+    background-color:rgb(77, 77, 203);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.upcoming-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10.5rem;
+    background-color:rgb(186, 207, 226);
+    width: 45%;
+    margin:auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.upcoming-events{
+    margin-left: 26rem;
+    margin-top: 3rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.hack{
+    font-weight: bolder;
+    font-size:1.2rem ;
+}
+
+.highlight-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(186, 207, 226);
+    border-radius: 15px;
+    gap: 9rem;
+    width: 44%;
+    padding: 1.5rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.ICZ-text-h1{
+     margin-left: 26rem;
+     margin-top: 2rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.h-p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+}
+
+.h-p i{
+    color: rgb(77, 77, 203);
+}
+
+.footer-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    background-color: rgb(186, 207, 226);
+    
+}
+
+.footer-sec{
+    height: 80px;
+}
+
+.footer-box{
+    display: flex;
+    gap:1.1rem;
+}
+
+.options{
+    display:flex;
+    gap:1.8rem;
+    margin-top: 5px;
+}
+
+.options i{
+    color: rgb(77, 77, 203);
+    padding-right: 0.3rem;
+}
+
+.options a{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.footer-options{
+    font-weight: 900;
+    font-size: 1.1rem;
+
+}
+
+.line{
+    background-color: rgb(145, 145, 227);
+    height: 3px;
+    width: 72%;
+    margin-left: 14rem;
+}
+
+.copy-right{
+    margin-left: 14rem;
+    margin-top: 0.3rem;
+    font-weight: 900;
+}
