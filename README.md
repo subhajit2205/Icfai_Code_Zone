@@ -69,7 +69,7 @@ Students of ICFAI University, passionate about helping peers grow 🚀
 ## 📩 Contact
 For guidance, collaboration, or contributions, connect here:  
 - GitHub: [subhajit2205](https://github.com/subhajit2205)
-- GitHub: [nikita9862](https://github.com/nikita9862)
+- GitHub: [nikitakar9862](https://github.com/nikitakar9862)
 
 ---
 
