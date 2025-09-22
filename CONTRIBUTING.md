@@ -15,3 +15,5 @@
 Please keep contributions **relevant, useful, and in English**.  
 
 Thank you! 🚀
+
+I have started contributing.
