@@ -61,7 +61,7 @@ If you have useful resources, roadmaps, or guidance to help students:
 ---
 
 ## ❤️ Maintainers
-- **Subhajit & Nikita**  
+- Subhajit 
 Students of ICFAI University, passionate about helping peers grow 🚀  
 
 ---
@@ -69,7 +69,6 @@ Students of ICFAI University, passionate about helping peers grow 🚀
 ## 📩 Contact
 For guidance, collaboration, or contributions, connect here:  
 - GitHub: [subhajit2205](https://github.com/subhajit2205)
-- GitHub: [nikitakar9862](https://github.com/nikitakar9862)
 
 ---
 
